@@ -98,3 +98,17 @@ Change library
 - Can use `Home/Up/Current_dir` to go back to the default library list or the folder with the symbols
 
 ![](images/4.3-back_to_default_library.png)
+
+## 4.3. Change the Instances' name
+
+Change the name of each components by selecting it and pressing `q`
+
+- V1 => VGS
+
+- V2 => VDS
+
+![](images/4.4-change_name_vsource.png)
+
+Final circuit as follows.
+
+![](images/4.5-final_nmos_circuit.png)
