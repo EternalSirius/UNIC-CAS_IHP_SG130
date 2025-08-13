@@ -172,5 +172,9 @@ To set up the simulation, insert a code symbol and enter the simulation commands
 
 ![](images/2.25-simulate_design.png)
 
+## 2.8. Plot the waveform in NGSpice
 
+- Plot the waveform in NGSpice by enter `plot a b c` in NGSpice terminal
+
+![](images/2.26-ngspice_simulation.png)
 
