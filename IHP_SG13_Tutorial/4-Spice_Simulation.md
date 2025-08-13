@@ -72,3 +72,29 @@ ihp-sg13g2/libs.tech/ngspice
     ├── psp103_nqs.osdi
     └── r3_cmc.osdi
 ```
+
+## 4.2. Create NMOS test circuits in Xscheme
+
+Create the NMOS test circuits with the following components
+
+- `xscheme_library/devices`
+
+>> V1 & V2: vsource.sym
+
+>> GND: gnd.sym
+
+- `sg13g2 devices`
+
+>> M1: sg13_lv_nmos.sym
+
+![](images/4.1-nmos_overview_schematic.png)
+
+Change library
+
+- Click on the library name on the left
+
+![](images/4.2-change_library.png)
+
+- Can use `Home/Up/Current_dir` to go back to the default library list or the folder with the symbols
+
+![](images/4.3-back_to_default_library.png)
