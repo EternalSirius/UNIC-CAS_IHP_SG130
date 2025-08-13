@@ -132,7 +132,15 @@ Use `cornerMOSlv.lib` and `mos_tt` section
 - Spice syntax:
 
 ```spice
-.lib <lib_filename> lib_section
+.lib <lib_filename> <lib_section>
 ```
 
 ![](images/4.8-final_schematic.png)
+
+## 4.6. Setup the Simulation
+
+We need to sweep the `VGS` and `VDS` from `0` to `1.2V`
+
+- Insert a `code_shown.sym` and change its properties as follows.
+
+![](images/4.9-change_properties_for_simulation.png)
