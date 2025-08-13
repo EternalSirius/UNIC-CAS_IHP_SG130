@@ -155,3 +155,22 @@ To set up the simulation, insert a code symbol and enter the simulation commands
 ### Note
 
 - The double quote is required
+
+## 2.7. Simulate the design using NGSpice 
+
+- Xscheme uses NGSpice as the default simulator
+
+- To create the design's netlist, click `Netlist` button to generate the spice file
+
+![](images/2.23-generate_netlist.png)
+
+- To view the netlist, select `Simulation` >> `Edit netlist`
+
+![](images/2.24-edit_netlist.png)
+
+- To simulate, click `Simulate` button to run the simulation
+
+![](images/2.25-simulate_design.png)
+
+
+
