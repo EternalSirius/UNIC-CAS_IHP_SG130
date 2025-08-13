@@ -109,3 +109,24 @@ To connect the wire, press `w` then use the left-mouse click to create multiple 
 
 - 2. Move the cursor to the red point, then left-mouse click
 
+## 2.5. Schematic capture - Create lab pins
+
+To view the waveform and name the net, insert a `lab_pin` symbol, and change its name
+
+- Create a `lab_pin` by `xscheme_library/devices` >> `lab_pin.sym` >> `OK` >> Click on the net for the `lab_pin`
+
+![](images/2.16_create_lab_pin_symbol.png)
+
+- Select the `lab_pin` symbol and then press `q` to rename it into `A`
+
+![](images/2.17_create_lab_pin_A.png)
+
+- Similary create the lab pin `B`, `C`, and `0` (ground)
+
+![](images/2.18_create_lab_pin_BC0.png)
+
+### Note
+
+- You can copy the lab pin `A` by selecting it and press `c`, then move it to the correct net
+
+- Rotate can be done by pressing `Shift+r`
