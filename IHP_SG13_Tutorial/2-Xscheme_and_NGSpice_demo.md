@@ -130,3 +130,28 @@ To view the waveform and name the net, insert a `lab_pin` symbol, and change its
 - You can copy the lab pin `A` by selecting it and press `c`, then move it to the correct net
 
 - Rotate can be done by pressing `Shift+r`
+
+## 2.6. Schematic capture - Set up a simulation
+
+To set up the simulation, insert a code symbol and enter the simulation commands
+
+- Create a code symbol by `xscheme_library/devices` >> `code.sym` >> `OK` >> Click on the schematic to place it
+
+![](images/2.19-create_simulation_symbol.png)
+
+![](images/2.20-simulation_symbol_view.png)
+
+- Select the code symbol and press `q`; change the `name` into `STIMULI` and `value` to:
+
+```spice
+".tran 10n 2000u uic
+.save all"
+```
+
+![](images/2.21-insert_simulation_command.png)
+
+![](images/2.22-final_view.png)
+
+### Note
+
+- The double quote is required
