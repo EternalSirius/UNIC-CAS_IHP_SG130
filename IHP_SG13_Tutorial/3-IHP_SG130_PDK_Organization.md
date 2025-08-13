@@ -53,3 +53,77 @@ Tapeouts:
 | Resistors              | Poly-Si, Thin Film | Poly-Si, Thin Film | Poly-Si            |
 | MIM Caps               | 1.5 fF / µm² (Al), 2.1 fF / µm² (Cu) | 1.5 fF / µm² (Al), 2.1 fF / µm² (Cu) | 2.1 fF / µm²       |
 | Metallization          | 7 Layers AL incl. 2 & 3 µm layers or *Cu: 4 + 2 (3µm), AL: 2 (3µm) | 7 Layers AL incl. 2 & 3 µm layers or *Cu: 4 + 2 (3µm), AL: 2 (3µm) | 7 Layers AL incl. 2 & 3 µm layers or *Cu: 4 + 2 (3µm), AL: 2 (3µm) | *Cu BEOL from X FAB
+
+## 3.2. PDK Contents
+
+### PDK tech files for opensource tools
+
+- DRC/LVS with KLayout
+
+- DRC/Extraction with Magic
+
+- Model files for Xyce / NgSpice
+
+- Symbols for Xschem / Qucs-S
+
+- Tech files for digital flow with OpenRoad
+
+- Electromagnetic estimation with OpenEMS
+
+### IO Cells
+
+### Primitive cells’ layout
+
+### Single-port SRAM
+
+### Standard cells
+
+- HV CMOS
+
+- LV CMOS
+
+```
+.
+├── sg13g2_io
+│   ├── cdl
+│   ├── doc
+│   ├── gds
+│   ├── lef
+│   ├── lib
+│   ├── spice
+│   ├── verilog
+│   └── xschem
+├── sg13g2_pr
+│   └── gds
+├── sg13g2_sram
+│   ├── cdl
+│   ├── doc
+│   ├── gds
+│   ├── lef
+│   ├── lib
+│   └── verilog
+└── sg13g2_stdcell
+    ├── cdl
+    ├── doc
+    ├── gds
+    ├── lef
+    ├── lib
+    ├── spice
+    └── verilog
+```
+
+```
+IHP-Open-PDK / ihp-sg13g2 / libs.tech
+.
+├── digital @ 9a6e7c9
+├── klayout
+├── magic
+├── netgen
+├── ngspice
+├── openems
+├── openroad
+├── qucs
+├── verilog-a
+├── xschem
+└── xyce/models
+```
