@@ -178,4 +178,23 @@ The design flow of the opensource tools is illustrated as follows.
 
 ![](images/3.4-overview_tool_flow.png)
 
+## 3.6. Digital Design Flow - RTL-to-GDS
+
+Tool used:
+
+- Yosys: synthesis
+
+- OpenSTA: timing analysis
+
+- Fault: DFT (not yet integrated)
+
+- OpenRoad: Backend
+
+- Magic/Klayout: Layout manipulation, debugging
+
+- Netgen: LVS
+
+![](images/3.5-digital_flow.png)
+
+
 
