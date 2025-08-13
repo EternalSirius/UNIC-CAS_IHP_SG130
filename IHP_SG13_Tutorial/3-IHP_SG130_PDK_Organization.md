@@ -56,7 +56,7 @@ Tapeouts:
 
 ## 3.2. PDK Contents
 
-### PDK tech files for opensource tools
+### 3.2.1. PDK tech files for opensource tools
 
 - DRC/LVS with KLayout
 
@@ -70,13 +70,13 @@ Tapeouts:
 
 - Electromagnetic estimation with OpenEMS
 
-### IO Cells
+### 3.2.2. IO Cells
 
-### Primitive cells’ layout
+### 3.2.3. Primitive cells’ layout
 
-### Single-port SRAM
+### 3.2.4. Single-port SRAM
 
-### Standard cells
+### 3.2.5. Standard cells
 
 - HV CMOS
 
@@ -127,3 +127,13 @@ IHP-Open-PDK / ihp-sg13g2 / libs.tech
 ├── xschem
 └── xyce/models
 ```
+
+## 3.3. Transistor Structure & Metal Scheme
+
+TEM cross section of 1T-1R Test strcture fabricated in 130m CMOS technology of IHP
+
+![](images/3.2-test_structure.png)
+
+- Metal scheme
+
+![](images/3.3-metal_scheme.png)
