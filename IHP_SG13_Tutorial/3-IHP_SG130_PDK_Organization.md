@@ -137,3 +137,39 @@ TEM cross section of 1T-1R Test strcture fabricated in 130m CMOS technology of I
 - Metal scheme
 
 ![](images/3.3-metal_scheme.png)
+
+## 3.4. Install the PDK (Manually)
+
+Checkout the PDK:
+
+```sh
+$ git clone https://github.com/IHP-GmbH/IHP-Open-PDK
+```
+
+Install the required tools:
+
+- Python 3.10.12
+
+- openvaf 23.5.0
+
+- ngspice 43
+
+- Xyce 7.8-opensource
+
+- xschem 3.4.5
+
+- qucs-s s24.3.0 (12ddd12b)
+
+- klayout 0.29.2
+
+- openEMS v0.0.35-108-gc651cce
+
+- magic 8.3.508
+
+Build the simulation model 
+
+```sh
+$ cd ihp-sg13g2/libs.tech/xschem && ./install.py
+```
+
+
