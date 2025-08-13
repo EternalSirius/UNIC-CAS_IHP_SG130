@@ -172,4 +172,10 @@ Build the simulation model
 $ cd ihp-sg13g2/libs.tech/xschem && ./install.py
 ```
 
+## 3.5. Analog Design Flow
+
+The design flow of the opensource tools is illustrated as follows.
+
+![](images/3.4-overview_tool_flow.png)
+
 
