@@ -155,3 +155,16 @@ We need to sweep the `VGS` and `VDS` from `0` to `1.2V`
 
 ![](images/4.10-generate_netlist_and_simulation.png)
 
+## 4.8. Plot the Waveform
+
+- In `NGSpice` simulation terminal, displaying the nodes in the schematic by enterring `display` command
+
+![](images/4.11-display_node.png)
+
+- NGSpice annotates the current as `<node_name>#branch`
+
+- Plot IDS by enterring `plot-vds#branch` command
+
+![](images/4.12-plot_vds.png)
+
+
