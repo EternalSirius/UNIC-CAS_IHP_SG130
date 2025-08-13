@@ -144,3 +144,14 @@ We need to sweep the `VGS` and `VDS` from `0` to `1.2V`
 - Insert a `code_shown.sym` and change its properties as follows.
 
 ![](images/4.9-change_properties_for_simulation.png)
+
+## 4.7. Generate Netlist and Run the Simulation
+
+- Click on `Netlist` button to generate the netlist
+
+- Click on `Simulation` >> `Edit Netlist` to view the netlist
+
+- Click on `Simulate` button to start the simulation
+
+![](images/4.10-generate_netlist_and_simulation.png)
+
