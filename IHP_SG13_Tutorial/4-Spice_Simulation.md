@@ -121,3 +121,18 @@ This is for displaying the pin signals on the waveform
 
 ![](images/4.6-change_pin_name.png)
 
+## 4.5. Setup the Library
+
+Use `cornerMOSlv.lib` and `mos_tt` section
+
+- Insert a `code_shown.sym` into the schematic and modify its properties as follows
+
+![](images/4.7-library_properties.png)
+
+- Spice syntax:
+
+```spice
+.lib <lib_filename> lib_section
+```
+
+![](images/4.8-final_schematic.png)
