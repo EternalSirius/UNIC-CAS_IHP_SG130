@@ -66,3 +66,25 @@ Draw a RLC circuit in Xscheme:
 - Create an arithmetic source (``vsource_arith.sym``)
 
 ![](images/2.8-create_arithmetic_symbol.png)
+
+## 2.3. Schematic capture - Change the paramters
+
+Change the capacitance to 50nF and the inductance to 10mH
+
+- Click on the `capacitor` and press `q`; change the value of `C1` to `50nF` then press `OK`
+
+![](images/2.10-change_capacitor.png)
+
+- Click on the `inductor` and press `q`; change the value of `L1` to `10mH` then press `OK`
+
+![](images/2.11-change_inductor.png)
+
+Set the voltage source
+
+- Click on the `voltage source` and press `q`; change the value of `E1` to `"3*cos(time*time*time*1e11)"` then press `OK`
+
+![](images/2.12-set_voltage_source.png)
+
+Final view
+
+![](images/2.13-final_view.png)
