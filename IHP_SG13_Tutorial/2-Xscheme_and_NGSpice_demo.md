@@ -81,10 +81,31 @@ Change the capacitance to 50nF and the inductance to 10mH
 
 Set the voltage source
 
-- Click on the `voltage source` and press `q`; change the value of `E1` to `"3*cos(time*time*time*1e11)"` then press `OK`
+- Click on the `voltage source` and press `q`; change the value of `E1` to `" '3*cos(time*time*time*1e11)' "` then press `OK` (note the single and doulbe quotes)
 
 ![](images/2.12-set_voltage_source.png)
 
 Final view
 
 ![](images/2.13-final_view.png)
+
+## 2.4. Schematic capture - Wiring
+
+To connect the wire, press `w` then use the left-mouse click to create multiple wire segments
+
+![](images/2.14-wiring_res.png)
+
+- 1. Put the cursor to the red point, then press `w`
+
+- 2. Move the cursor here and left-mouse click, then press `w` again
+
+- 3. Move the cursor here and left-mouse click, then press `w` again
+
+- 4. Move the cursor here and left-mouse click on the red point to finish wiring
+
+![](images/2.15-wiring_two_components.png)
+
+- 1. Put the cursor to the red point, then press `w`
+
+- 2. Move the cursor to the red point, then left-mouse click
+
