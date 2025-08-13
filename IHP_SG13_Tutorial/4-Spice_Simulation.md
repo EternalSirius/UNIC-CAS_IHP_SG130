@@ -112,3 +112,12 @@ Change the name of each components by selecting it and pressing `q`
 Final circuit as follows.
 
 ![](images/4.5-final_nmos_circuit.png)
+
+## 4.4. Insert the Lab Pin
+
+This is for displaying the pin signals on the waveform
+
+- Create `lab_pin` symbols for `VDS` and `VGS` signals as follows.
+
+![](images/4.6-change_pin_name.png)
+
