@@ -42,14 +42,12 @@ Tapeouts:
 
 ### Comparison Table
 
-|                        | SG13S              | SG13G2             | SG13G3Cu           |
+| **SiGe-HBT**           | SG13S              | SG13G2             | SG13G3Cu           |
 |------------------------|--------------------|--------------------|--------------------|
-| **SiGe-HBT**           |                    |                    |                    |
 | f<sub>T</sub> / f<sub>max</sub> | 250 / 340 GHz     | 350 / 450 GHz     | 470 / 650 GHz     |
 | W<sub>Emitter</sub>    | 170 nm             | 130 nm             | 110 nm             |
 | HBT BV<sub>CEO</sub>   | 1.7 V              | 1.6 V              | 1.5 V              |
-| **CMOS node**          |                    |                    |                    |
-|                        | **130 nm**         | **130 nm**         | **130 nm**         |
+| **CMOS node**          | **130 nm**         | **130 nm**         | **130 nm**         |
 | Active devices         | Schottky diodes, Antenna diodes, PN diodes, ESD | Schottky diodes, Antenna diodes, PN diodes, ESD | Schottky diodes, Antenna diodes, PN diodes, ESD |
 | Varactors              | NMOS Varactor      | NMOS Varactor      | NMOS Varactor      |
 | Resistors              | Poly-Si, Thin Film | Poly-Si, Thin Film | Poly-Si            |
