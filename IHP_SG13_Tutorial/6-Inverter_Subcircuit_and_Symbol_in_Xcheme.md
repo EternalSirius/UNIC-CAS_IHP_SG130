@@ -51,3 +51,30 @@ Create a symbol by selecting `Symbol` >> `Make symbol from schematic`
 ![](images/6.2-create_symbol_view.png)
 
 The next step is to edit this symbol file.
+
+## 6.3. Edit the Symbol
+
+Click on `File` >> `Open` then select `inverter.sym` in the open dialog
+
+- You might need to choose the correct directory containing the symbol file first
+
+![](images/6.3-edit_symbol.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
