@@ -108,6 +108,16 @@ Click on `File` >> `Open` then select `inverter.sym` in the open dialog
 
 ![](images/6.9-batch_mode.png)
 
+## 6.7. Generate Netlist and Simulate
+
+- Click on `Netlist` button to generate the netlist
+
+- Click on `Simulation` >> `Edit Netlist` to view the netlist
+
+- Click on `Simulate` button to start the simulation
+
+![](images/6.10-generate_netlist_and_simulate.png)
+
 
 
 
