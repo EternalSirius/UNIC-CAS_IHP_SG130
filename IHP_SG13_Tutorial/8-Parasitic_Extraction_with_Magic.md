@@ -57,4 +57,30 @@ $ magic -rcfile ~/unic-cass/IHP-Open-PDK/ihp-sg13g2/libs.tech/magic/ihp-sg13g2.m
 
 ![](images/8.2-magic_shell.png)
 
+## 8.2. Extracted Netlist
 
+```spice
+* NGSPICE file created from inverter.ext - technology: ihp-sg13g2
+.subckt inverter Y A VDD VSS
+X0 Y.t0 A.t0 VSS.t1 VSS.t0 sg13_lv_nmos ad=0.1005p pd=1.34u as=0.1005p ps=1.34u w=0.15u l=0.13u
+X1 Y.t1 A.t0 VDD.t1 VDD.t0 sg13_lv_pmos ad=0.1005p pd=1.34u as=0.1005p ps=1.34u w=0.15u l=0.13u
+R0 A A.t0 15.067
+R1 VSS.n0 VSS.t0 1031.32
+R2 VSS.n0 VSS.t1 17.326
+R3 VSS VSS.n0 0.146809
+R4 Y.n0 Y.t1 17.7464
+R5 Y.n0 Y.t0 17.0005
+R6 Y Y.n0 0.089875
+R7 VDD.n0 VDD.t1 17.3409
+R8 VDD.n0 VDD.t0 11.3734
+R9 VDD VDD.n0 0.134225
+C0 a_183_n128# VDD 7.13e-21
+C1 Y A 0.040768f
+C2 A VDD 0.07647f
+C3 Y VDD 0.049249f
+C4 Y VSS 0.115102f
+C5 A VSS 0.217577f
+C6 VDD VSS 0.137668f
+C7 a_183_n128# VSS 5.14e-20 $ **FLOATING
+.ends
+```
