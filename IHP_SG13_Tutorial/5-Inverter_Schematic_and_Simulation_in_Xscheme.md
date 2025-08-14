@@ -103,3 +103,15 @@ plot vin vout
 ```
 
 ![](images/5.8-plot_waveform.png)
+
+## 5.8. Modify the Circuit for AC Simulation
+
+- Based on the schematic from the previous section, delete `VIN` symbol (select it, then press `delete` key)
+
+- Insert `vsource_arithm.sym` and connect the wires, respectively.
+
+![](images/5.9-insert_arithm_symbol.png)
+
+- Change `E1` source's properties as follows.
+
+![](images/5.10-change_vsource_properties.png)
