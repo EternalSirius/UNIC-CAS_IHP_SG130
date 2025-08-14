@@ -118,7 +118,17 @@ Click on `File` >> `Open` then select `inverter.sym` in the open dialog
 
 ![](images/6.10-generate_netlist_and_simulate.png)
 
+## 6.8. View the Waveform
 
+We use `Xscheme-GAW` to view the waveform.
+
+- Click on `Waves` button and select `External viewer`
+
+![](images/6.11-externam_viewer.png)
+
+- In `GAW GUI` opened, click on a panel first, then click on the signal you want to display
+
+![](images/6.12-select_signal.png)
 
 
 
