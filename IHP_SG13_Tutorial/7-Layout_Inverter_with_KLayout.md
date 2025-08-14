@@ -186,4 +186,16 @@ $ klayout -e
 
 ![](images/7.12-klayout.png)
 
+## 7.4. Create a New Layout
+
+Create a new layout by selecting `File` >> `New Layout` and change the information as follows.
+
+- Technology: `sg13g2 - IHP SiGe 130nm technology`
+
+- Top cell: `inverter`
+
+- Database unit: `0.005`
+
+![](images/7.13-create_new_layout.png)
+
 
