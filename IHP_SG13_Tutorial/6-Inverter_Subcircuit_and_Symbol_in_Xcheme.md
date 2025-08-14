@@ -38,3 +38,16 @@ Create an inverter schematic in Xcheme
 Save the schematic by selecting `File` >> `Save As` >> `inverter.sch`
 
 Next, we create the symbol for the inverter.
+
+
+## 6.2. Create Symbol
+
+Create a symbol by selecting `Symbol` >> `Make symbol from schematic`
+
+- Click `OK` on the dialog `Do you want to make symbol view`
+
+- A new file named `inverter.sym` will be create in the same directory
+
+![](images/6.2-create_symbol_view.png)
+
+The next step is to edit this symbol file.
