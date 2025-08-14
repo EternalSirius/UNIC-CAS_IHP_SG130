@@ -340,5 +340,27 @@ Final view is shown as follows.
 
 ![](images/7.30-final_view.png)
 
+## 7.17. Create the A Pin
+
+- Select `Metal1.pin` in the `Layers` panel and draw a box with the same size as the previous one
+
+- Select `Metal1.text` in the `Layers` panel and click `Text` button to place the text inside the pin
+
+![](images/7.31-change_pin_name.png)
+
+- Double click on the `text` to change it into `A`
+
+![](images/7.32-final_view.png)
+
+## 7.18. Extend the NWell for the PMOS
+
+- Click on `Ruler` and create a ruler approximately `0.3um` from the upper edge of `pmos`
+
+![](images/7.33-create_ruler.png)
+
+- Select `Nwell.drawing` and draw a box to extend the nwell `0.3um` long on the `pmos`
+
+![](images/7.34-draw_nwel.png)
+
 
 
