@@ -238,4 +238,42 @@ Finally, click on the layout to place the `pmos`.
 
 ![](images/7.17-hide_layers.png)
 
+## 7.9. Align NMOS and PMOS
+
+- Click on `Move` button and move the `pmos` such that the `poly` of the `pmos` and `nmos` in the same line
+
+![](images/7.18-move_pmos.png)
+
+- Use the `arrow` keys on your keyboard to move the `nmos` down.
+
+![](images/7.19-move_nmos.png)
+
+## 7.10. Connect the Poly
+
+- Click on `GatPoly.drawing` in the `Layers` panel
+
+- Click on `Box` button then draw a box between the two poly
+
+>> Note: The size needs to be exact as the one in the `pmos` and `nmos`
+
+- You can use zoom in and out to help place it correctly.
+
+![](images/7.20-draw_poly.png)
+
+## 7.10. Connect the Terminals
+
+- Click on `Metal1.drawing` on the `Layers` panel
+
+- Draw a box between two terminals by clicking on `Box` button and start drawing
+
+- It should cover the two small box inside the `pmos` and `nmos`
+
+![](images/7.21-draw_terminals.png)
+
+## 7.11. Create the Pins
+
+- Click on `Metal1.pin` on the `Layers` panel and draw a box with the same size as the previous one
+
+![](images/7.22-draw_pins.png)
+
 
