@@ -491,5 +491,19 @@ inverter
 
 ![](images/7.48-find_lvs_problem.png)
 
+## 7.33. Fix the Layout
+
+- Select `Activ.drawing` and draw a box over `VSS` pin
+
+![](images/7.49-draw_activ.png)
+
+- Save `layout` and run DRC & LVS again
+
+![](images/7.50-lvs_clean.png)
+
+
+
+
+
 
 
