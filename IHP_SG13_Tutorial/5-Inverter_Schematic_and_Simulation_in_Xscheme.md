@@ -121,3 +121,16 @@ plot vin vout
 - Change the simulation type from `DC` to `transient` by editing the `STIMULI` as follows.
 
 ![](images/5.11-change_simulation_type.png)
+
+
+## 5.10. Generate Netlist again and Run the Simulation
+
+
+- Click on `Netlist` button to generate the netlist
+
+- Click on `Simulation` >> `Edit Netlist` to view the netlist
+
+- Click on `Simulate` button to start the simulation
+
+![](images/5.12-generate_netlist_and_simulate.png)
+
