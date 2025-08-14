@@ -198,4 +198,16 @@ Create a new layout by selecting `File` >> `New Layout` and change the informati
 
 ![](images/7.13-create_new_layout.png)
 
+## 7.5. Create NMOS Instance
 
+- 1. Create a new `nmos` instance by clicking on `Instace` button
+
+- 2. In the instance dialog, select the `library` as `SG13_dev - IHP SG13G2 Pcells`
+
+- 3. Click on `search button`
+
+- 4. Select `nmos`, then press `OK`
+
+![](images/7.14-create_nmos.png)
+
+Finally, click on the layout to place the `nmos`.
