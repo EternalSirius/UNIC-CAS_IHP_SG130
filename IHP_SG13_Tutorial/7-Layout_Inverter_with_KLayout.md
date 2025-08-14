@@ -55,7 +55,7 @@ KLayout is capable of:
 
 - ILDO consists of oxide (`590nm`) and nitride (`50nm`)
 
-- For a homogenous ILDO with 
+- For a homogenous ILDO with `$\varepsilon_R$=4.1`, the effective thickness corresponds to `deff=620nm`.
 
 ### 7.2.1. Design Rules in IHP-SG13G2 - Rule check schematics
 
@@ -64,8 +64,6 @@ KLayout is capable of:
 ![](images/7.5-rule_check_schematic_2.png)
 
 ### 7.2.2. Design Rules in IHP-SG13G2 - NWell
-
-## NWell and PWell Design Rules
 
 | **Rule** | **Description**                                                                 | **Value (µm)** |
 |----------|----------------------------------------------------------------------------------|----------------|
@@ -82,3 +80,17 @@ KLayout is capable of:
 | NW.f1    | Minimum NWell space to substrate tie in P+Activ inside ThickGateOx              | 0.62           |
 
 ![](images/7.6-nwell.png)
+
+### 7.2.3. Design Rules in IHP-SG13G2 - Active
+
+| **Rule** | **Description**                     | **Value (µm)** |
+|----------|-------------------------------------|----------------|
+| Act.a    | Minimum Activ width                 | 0.15           |
+| Act.b    | Minimum Activ space or notch        | 0.21           |
+| Act.c    | Minimum Activ drain/source extension| 0.23           |
+| Act.d    | Minimum Activ area                  | 0.122          |
+| Act.e    | Minimum Activ enclosed area         | 0.15           |
+
+![](images/7.7-active.png)
+
+
