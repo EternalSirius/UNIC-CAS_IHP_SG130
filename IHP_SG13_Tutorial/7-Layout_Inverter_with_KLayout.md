@@ -292,6 +292,20 @@ Final view is shown as follows.
 
 ![](images/7.24-final_view.png)
 
+## 7.13. Connect Poly to Metal1
+
+- Click on `GatPoly.Drawing` and draw a box of about `0.2um x 0.2um` to the gate terminal
+
+- Draw a `Metal1` over the above box with the same size
+
+>> Click on `Metal1.drawing` and draw a box
+
+- Connect `Metal` to `GatPoly`
+
+>> Click on `Cont.drawing` and draw a small box inside
+
+![](images/7.25-connect_poly_metal1.png)
+
 
 
 
