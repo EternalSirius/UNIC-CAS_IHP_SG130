@@ -56,3 +56,13 @@ The final schematic is shown as follows.
 - Similarly, create a lab pin for the power supply `vdd`
 
 ![](images/5.4-create_lab_pins.png)
+
+## 5.4. Setup the Library
+
+- Use `cornerMOSlv.lib` and `mos_tt` section and insert a `code_shown.sym` into the schematic and modify its properties as follows.
+
+```
+.lib cornerMOSlv.lib mos_tt
+```
+
+![](images/5.5-setup_library.png)
