@@ -31,5 +31,20 @@ This requires two transistors, PMOS and NMOS.
 
 - V1, V2: vsource.sym
 
+The overview schematic of an inverter is illustrated as follows.
+
 ![](images/5.1-overview_inverter_schematic.png)
 
+## 5.2. Create the Power Supply and Input Signal
+
+With the above schematic, change the voltage source as follows.
+
+- Change `V1` into `VIN` with `value=0`
+
+- Change `V2` into `VDD` with `value=1.2`
+
+![](images/5.2-change_power_and_input_signal.png)
+
+The final schematic is shown as follows.
+
+![](images/5.3-final_schematic.png)
