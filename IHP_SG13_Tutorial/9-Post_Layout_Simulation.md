@@ -1,0 +1,46 @@
+---
+title: 9. Post-Layout Simulation
+layout: default
+parent: false
+has_toc: false
+has_children: false
+---
+{: .no_toc }
+# 9. Post-Layout Simulation
+
+{: .no_toc }
+
+<!-- <details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details> -->
+
+This section shows how to setup the post-layout simulation.
+
+## 9.1. Change the Symbol Type
+
+- Open the `inverter.sym`
+
+- Press `q` in the symbol to change its type from `subcircuit` into `primitive` and press `OK`
+
+- Select `File` >> `Save`
+
+![](images/9.1-change_symbol_type.png)
+
+## 9.2. Open the Testbench
+
+- In `Xscheme`, open the `inverter_tb.sch`
+
+- Insert a `code_shown.sym` with the following properties.
+
+![](images/9.2-setup_simulation.png)
+
+## 9.3. Compare Post-layout and Pre-layout Simulation
+
+- The different is because of the parasitic resistance and capacitance
+
+![](images/9.3-comparison.png)
