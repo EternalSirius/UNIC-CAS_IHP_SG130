@@ -66,3 +66,20 @@ The final schematic is shown as follows.
 ```
 
 ![](images/5.5-setup_library.png)
+
+## 5.5. Setup the Simulation
+
+We need to sweep the `VGS` and `VDS` from `0` to `1.2V`.
+
+- Insert a `code_shown.sym` and change its name into `STIMULI` and its properties as follows.
+
+```
+.param temp=27
+.control
+save all
+op
+dc VIN 0 1.2 0.01
+.endc
+```
+
+![](images/5.6-setup_simulation.png)
