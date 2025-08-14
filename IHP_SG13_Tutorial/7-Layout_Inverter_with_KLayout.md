@@ -465,5 +465,31 @@ inverter
 └── xschemrc
 ```
 
+## 7.30. Setup the LVS
+
+- Select `SG13G2 PDK` >> `SG13G2 LVS Options`
+
+>> Set the netlist path as the netlist extracted from `ngspice`
+
+![](images/7.46-setup_lvs.png)
+
+## 7.31. Run LVS
+
+- Select `SG13G2 PDK` >> `Run LVS`
+
+- LVS should show that the circuit does not match (Layout does not match schematic)
+
+>> We need to debug it. Scheme through the violations.
+
+![](images/7.47-run_lvs.png)
+
+## 7.32. Find LVS Problems
+
+- The problem is that the base terminal of the `nmos` is not connected to `VSS`
+
+>> This is because the `contact` need `pSD` and `Active` layers. `Active` layer is missing (verified on the `layout`)
+
+![](images/7.48-find_lvs_problem.png)
+
 
 
