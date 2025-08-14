@@ -440,5 +440,30 @@ Final view is shown as follows.
 
 ![](images/7.43-run_drc_again.png)
 
+## 7.28. Save the Layout
+
+- Click on `File` >> `Save As`. Store the files as `inverter.gds`
+
+![](images/7.44-save_layout.png)
+
+## 7.29. Export Netlist for LVS
+
+- Run `Xscheme` and open the `inverter.sch` (that you have done in `Lab-04`)
+
+- Select `Simulation` >> `LVS` >> `LVS netlist: Top level is a .subckt`
+
+- Click on `Netlist` button, it will generate a netlist in simulation folder
+
+![](images/7.45-generate_netlist.png)
+
+```
+inverter
+├── inverter.gds
+├── inverter.sch
+├── simulations
+│   └── inverter.spice
+└── xschemrc
+```
+
 
 
