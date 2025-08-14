@@ -306,6 +306,17 @@ Final view is shown as follows.
 
 ![](images/7.25-connect_poly_metal1.png)
 
+## 7.14. First DRC Check
+
+- Select `Tools` >> `DRC` >> `sg13g2_minimal.lydrc`
+
+- Click on the DRC violation, it will be highlighted in the layout view
+
+![](images/7.26-select_drc.png)
+
+- In the figure, `M1.b` rule is violated, the minimum `Metal1` space or notch must be `>=0.18um`
+
+![](images/7.27-highlight_violation.png)
 
 
 
