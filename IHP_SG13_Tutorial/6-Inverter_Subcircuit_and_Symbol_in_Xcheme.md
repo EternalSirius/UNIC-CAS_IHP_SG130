@@ -84,7 +84,23 @@ Click on `File` >> `Open` then select `inverter.sym` in the open dialog
 
 - Click on save when done.
 
+## 6.5. Create a Testbench for Inverter
 
+- Create a new schematic by selecting `File` >> `Create new window/tab`
+
+- Insert a new instance by selecting `Tools` >> `Insert Symbol` and selecting the folder with the `inverter.sym`
+
+- Create a new schematic as follows.
+
+>> `VDD`, `VIN`: `vsource.sym`
+
+>> `vdd`, `vin`, `vout`: `lab_pin.sym`
+
+![](images/6.7-insert_symbol.png)
+
+- Next, setup the library and simulation options as follows.
+
+![](images/6.8-setup_library_and_simulation.png)
 
 
 
