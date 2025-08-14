@@ -60,6 +60,31 @@ Click on `File` >> `Open` then select `inverter.sym` in the open dialog
 
 ![](images/6.3-edit_symbol.png)
 
+## 6.4. Make the Inverter Shape
+
+- Delete the rectangle by selecting the lines and press `delete`.
+
+- Move the pins including `A`, `Y`, `VDD`, `VSS` as the following (Please note the center of the drawing, this is important.)
+
+![](images/6.4-delete_shape.png)
+
+- Press `L` multiple times to draw the triangle shape for the inverters as follows.
+
+![](images/6.5-draw_shape.png)
+
+- Move `VDD` and `VSS` pins toward the triangle.
+
+- In this step, we might need to change the snape size. Change the snape size by pressing `g` to decrease or `Shift+g` to increase its size.
+
+![](images/6.6-draw_circle.png)
+
+- Draw the triangle by clicking on two points and size the circle as you want
+
+- Move the circle and other component if necessary
+
+- Click on save when done.
+
+
 
 
 
