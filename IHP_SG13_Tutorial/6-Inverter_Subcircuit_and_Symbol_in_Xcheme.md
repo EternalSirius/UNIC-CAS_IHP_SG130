@@ -6,7 +6,7 @@ has_toc: false
 has_children: false
 ---
 {: .no_toc }
-#  6. Create the Inverter's Subcircuit and Symbol in Xscheme
+# 6. Create the Inverter's Subcircuit and Symbol in Xscheme
 
 {: .no_toc }
 
