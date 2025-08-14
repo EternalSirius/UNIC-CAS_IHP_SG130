@@ -83,3 +83,14 @@ dc VIN 0 1.2 0.01
 ```
 
 ![](images/5.6-setup_simulation.png)
+
+## 5.6. Generate Netlist and Run the Simulation
+
+- Click on `Netlist` button to generate the netlist
+
+- Click on `Simulation` >> `Edit Netlist` to view the netlist
+
+- Click on `Simulate` button to start the simulation
+
+![](images/5.7-generate_netlist_and_simulate.png)
+
