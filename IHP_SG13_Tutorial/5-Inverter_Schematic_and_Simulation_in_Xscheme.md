@@ -104,7 +104,7 @@ plot vin vout
 
 ![](images/5.8-plot_waveform.png)
 
-## 5.8. Modify the Circuit for AC Simulation
+## 5.8. Modify the Circuit for Transient Simulation
 
 - Based on the schematic from the previous section, delete `VIN` symbol (select it, then press `delete` key)
 
