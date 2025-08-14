@@ -124,7 +124,7 @@ We use `Xscheme-GAW` to view the waveform.
 
 - Click on `Waves` button and select `External viewer`
 
-![](images/6.11-externam_viewer.png)
+![](images/6.11-external_viewer.png)
 
 - In `GAW GUI` opened, click on a panel first, then click on the signal you want to display
 
