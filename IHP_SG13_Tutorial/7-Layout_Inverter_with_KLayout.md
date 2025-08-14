@@ -225,3 +225,17 @@ Finally, click on the layout to place the `nmos`.
 ![](images/7.15-create_pmos.png)
 
 Finally, click on the layout to place the `pmos`.
+
+## 7.7. Change the Layout Visibility
+
+- Display all the layer in the layout by changing the depth (e.g.: `2`).
+
+![](images/7.16-change_visibility.png)
+
+## 7.8. Hide Empty/Unused Layers
+
+- Right click on `layers` panel and select `Hide Empty Layers`
+
+![](images/7.17-hide_layers.png)
+
+
