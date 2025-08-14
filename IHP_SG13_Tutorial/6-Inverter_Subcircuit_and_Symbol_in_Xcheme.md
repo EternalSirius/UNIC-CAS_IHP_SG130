@@ -102,6 +102,12 @@ Click on `File` >> `Open` then select `inverter.sym` in the open dialog
 
 ![](images/6.8-setup_library_and_simulation.png)
 
+## 6.6. Run NGSpice in Batch Mode
+
+- Click on `Simulation` >> `Configure simulators & tools`, selecting `Ngspice batch` and `Gaw viewer`, then click on `Accept, no Save and Close`.
+
+![](images/6.9-batch_mode.png)
+
 
 
 
