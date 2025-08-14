@@ -400,7 +400,45 @@ Final view is shown as follows.
 
 >> We ignore three violation in the figure at this moment
 
-![](images/7.38-run_drc_agin.png)
+![](images/7.38-run_drc_again.png)
+
+## 7.23. Draw pSD and Metal1
+
+- Select `pSD.drawing` and draw a box with the same size as `VDD` pin
+
+>> You can use `ruler` to help with the size
+
+- Draw `Metal1.drawing` and `Metal1.pin` with the same size
+
+![](images/7.39-draw_pSD.png)
+
+## 7.24. Create VSS Text
+
+- Select `Metal1.text` and click on `text` button, put the text inside `VSS` pin and name it as `VSS`
+
+![](images/7.40-create_vss_pin.png)
+
+## 7.25. Connect VSS to the Substrate
+
+- Select `Cont.drawing` and create some small boxes inside `VSS` pin
+
+- Select `Metal1.drawing` and create a shape connect to the `nmos`
+
+![](images/7.41-connect_vss_substrate.png)
+
+## 7.26. Connect VSS to the NMOS
+
+- Select `Metal1.drawing` and create a shape connect to the `nmos`
+
+![](images/7.42-connect_vss_nmos.png)
+
+## 7.27. Run DRC Again
+
+- If there is no further DRC violation, the layout is done.
+
+>> If there are a few, you will have to fix it.
+
+![](images/7.43-run_drc_again.png)
 
 
 
