@@ -360,7 +360,27 @@ Final view is shown as follows.
 
 - Select `Nwell.drawing` and draw a box to extend the nwell `0.3um` long on the `pmos`
 
-![](images/7.34-draw_nwel.png)
+![](images/7.34-draw_nwell.png)
+
+## 7.19. Create Metal 1
+
+- Select `Metal1.drawing` and draw a box with the same size
+
+- Select `Metal1.pin` and draw a box with the same size
+
+![](images/7.35-draw_metal1.png)
+
+## 7.20. Create the VDD Text
+
+- Click on `Metal1.text` and select `Text` button
+
+- Place the text inside `VDD` pin
+
+- Change the text to `VDD`
+
+![](images/7.36-create_vdd_text.png)
+
+
 
 
 
