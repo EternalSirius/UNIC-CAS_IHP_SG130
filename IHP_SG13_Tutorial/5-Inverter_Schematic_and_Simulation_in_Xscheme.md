@@ -134,3 +134,12 @@ plot vin vout
 
 ![](images/5.12-generate_netlist_and_simulate.png)
 
+## 5.11. Plot the Waveform
+
+- Plot the voltage of `vin` and `vout` by typing the following command in `ngspice` shell.
+
+```
+plot vin vout
+```
+
+![](images/5.13-plot_waveform.png)
