@@ -48,3 +48,11 @@ With the above schematic, change the voltage source as follows.
 The final schematic is shown as follows.
 
 ![](images/5.3-final_schematic.png)
+
+## 5.3. Add the Lab Pins
+
+- Create the lab pins for the input signal `vin` and the output signal `vout` by using the `lab_pin.sym`
+
+- Similarly, create a lab pin for the power supply `vdd`
+
+![](images/5.4-create_lab_pins.png)
