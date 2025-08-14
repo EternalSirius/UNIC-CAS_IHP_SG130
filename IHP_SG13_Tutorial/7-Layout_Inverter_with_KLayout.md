@@ -276,4 +276,22 @@ Finally, click on the layout to place the `pmos`.
 
 ![](images/7.22-draw_pins.png)
 
+## 7.12. Change Pin Name
+
+- Click on `Metal1.text` on the `Layers` panel
+
+>> Right click on `Layers` panel >> Uncheck hide empty layers
+
+- Click on the `text` button and place it into `Metal1.pin` region (go back to select mode by press `esc`)
+
+- Double click on the text and change it into `Y`
+
+![](images/7.23-change_pin_name.png)
+
+Final view is shown as follows.
+
+![](images/7.24-final_view.png)
+
+
+
 
