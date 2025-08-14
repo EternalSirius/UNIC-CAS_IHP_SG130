@@ -172,3 +172,18 @@ KLayout is capable of:
 | M1.k     | Maximum global Metal1 density                                                   | 60.0 %    |
 
 ![](images/7.11-Metal1.png)
+
+## 7.3. Launch KLayout
+
+- Run the following command in the terminal to launch `klayout`.
+
+```sh
+$ source $HOME/unic-cass/env.sh
+$ export KLAYOUT_PATH=$PDK_ROOT/$PDK/libs.tech/klayout:$HOME/.klayout
+$ export KLAYOUT_HOME=$HOME/.klayout
+$ klayout -e
+```
+
+![](images/7.12-klayout.png)
+
+
