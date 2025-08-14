@@ -318,5 +318,27 @@ Final view is shown as follows.
 
 ![](images/7.27-highlight_violation.png)
 
+## 7.15. Second DRC Violation
+
+- Rule `Cnt.a` is violated the minimum and maximum contact width `=0.16um`
+
+![](images/7.28-second_violation.png)
+
+## 7.16. Fixed the DRC
+
+- Delete the gate `poly` and the `Metal1` and the `contact`
+
+>> Select the `gate poly`, `Metal1` and the `Contact` and press `Delete` key
+
+- Draw a new one with bigger size
+
+![](images/7.29-fixed_drc.png)
+
+>> Note: You can use the ruler to have some idea of the size
+
+- After completed, rerun the DRC, it passes
+
+![](images/7.30-final_view.png)
+
 
 
