@@ -115,3 +115,9 @@ plot vin vout
 - Change `E1` source's properties as follows.
 
 ![](images/5.10-change_vsource_properties.png)
+
+## 5.9. Change the Simulation Type
+
+- Change the simulation type from `DC` to `transient` by editing the `STIMULI` as follows.
+
+![](images/5.11-change_simulation_type.png)
