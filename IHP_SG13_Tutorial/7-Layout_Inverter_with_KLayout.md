@@ -380,7 +380,27 @@ Final view is shown as follows.
 
 ![](images/7.36-create_vdd_text.png)
 
+## 7.21. Connect the Substrate and Terminal
 
+- Select `Act.drawing` and draw a box with the same size as `VDD` pin
+
+- Select `Cont.drawing` and plot some small boxes inside the `VDD` pin region
+
+>> Note that it must follow the DRC rule
+
+- Select `Metal1.drawing` and connect the terminal to `VDD` pin
+
+![](images/7.37-connect_substrate_terminal.png)
+
+## 7.22. Run DRC Again
+
+- Run DRC by selecting `Tools` >> `DRC` >> `sg13g2_minimal.lydrc`
+
+- The results show that it is clean
+
+>> We ignore three violation in the figure at this moment
+
+![](images/7.38-run_drc_agin.png)
 
 
 
