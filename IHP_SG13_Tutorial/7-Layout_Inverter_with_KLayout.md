@@ -499,6 +499,8 @@ inverter
 
 - Save `layout` and run DRC & LVS again
 
+Finally, the LVS is clean as shown below.
+
 ![](images/7.50-lvs_clean.png)
 
 
